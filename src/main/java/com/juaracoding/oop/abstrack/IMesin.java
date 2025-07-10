@@ -1,4 +1,7 @@
 package com.juaracoding.oop.abstrack;
 
-public class IMesin {
+public interface IMesin {
+    public void startEngine();
+
+    public void stopEngine();
 }

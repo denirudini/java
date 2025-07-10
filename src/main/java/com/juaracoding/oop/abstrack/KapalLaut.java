@@ -11,4 +11,14 @@ public class KapalLaut extends Kendaraan {
     public void jalan() {
         System.out.println(this.getName() + " berjalan di laut.");
     }
+
+    @Override
+    public void startEngine() {
+
+    }
+
+    @Override
+    public void stopEngine() {
+
+    }
 }

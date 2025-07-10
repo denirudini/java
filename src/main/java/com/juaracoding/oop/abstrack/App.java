@@ -2,20 +2,22 @@ package com.juaracoding.oop.abstrack;
 
 public class App {
     public static void main(String[] args) {
-        Kendaraan motor = new Motor("Honda Supra X");
+        Motor motor = new Motor("Honda Supra X");
         Kendaraan kapalFeri = new KapalLaut("Kapal Feri");
-        Kendaraan garuda = new Pesawat("Garuda Boing Banget");
-        Kendaraan k = new Kendaraan("Contoh : ") {
-            @Override
-            public void jalan() {
-                System.out.println(this.getName() + "Rada beda..");
-            }
+        Pesawat garuda = new Pesawat("Garuda Boing Banget");
+        Kendaraan sepeda = new Sepeda("Ontel Cap Kembang");
 
-        };
-
-        k.jalan();
         motor.jalan();
+        motor.startEngine();
+        motor.stopEngine();
+
         kapalFeri.jalan();
+
+        garuda.startEngine();
         garuda.jalan();
+        garuda.stopEngine();
+
+        sepeda.startEngine();
+
     }
 }

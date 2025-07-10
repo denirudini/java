@@ -1,6 +1,6 @@
 package com.juaracoding.oop.abstrack;
 
-public abstract class Kendaraan {
+public abstract class Kendaraan implements IMesin{
     private String name;
 
     public Kendaraan(String name) {

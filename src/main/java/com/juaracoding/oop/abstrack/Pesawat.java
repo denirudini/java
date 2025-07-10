@@ -11,4 +11,13 @@ public class Pesawat extends Kendaraan {
         System.out.println(this.getName() + " terbang di udara.");
     }
 
+    @Override
+    public void startEngine() {
+
+    }
+
+    @Override
+    public void stopEngine() {
+
+    }
 }
