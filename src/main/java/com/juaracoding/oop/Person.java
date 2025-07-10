@@ -23,12 +23,5 @@ public class Person {
     return this;
   }
 
-   String getName() {
-    return name;
-  }
-
-  int getAge() {
-    return age;
-  }
 
 }
